@@ -16,8 +16,13 @@ For each correspondence, we plot a line to connect them.
 
 <img src='src/match.png' width="600">
 
+## Homography
+When we have a set of several correspondence. We can find a homography to align these points.
+<img src='src/homography.png' width="300">
 
-## Different feature extractor
+Since we usually take h22 as one, we only have eight freedom to solve. As a result, we need at least eight correspondences to solve it.
+
+## Results of different feature extractors
 We try three different feature extractors, which are ORB, SIFT, and SURF. In general, we found the quality of SURF is the best and robust.
 
 |ORB|SIFT|SURF|
