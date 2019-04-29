@@ -18,6 +18,7 @@ For each correspondence, we plot a line to connect them.
 
 
 ## Different feature extractor
+We try three different feature extractors, which are ORB, SIFT, and SURF. In general, we found the quality of SURF is the best and robust.
 
 |ORB|SIFT|SURF|
 |---|---|---|
