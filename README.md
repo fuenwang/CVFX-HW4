@@ -15,3 +15,10 @@ We plot orb feature for the two examples.
 For each correspondence, we plot a line to connect them.
 
 <img src='src/match.png' width="600">
+
+
+## Different feature extractor
+
+|ORB|SIFT|SURF|
+|---|---|---|
+|<img src='src/orb.gif' width="300">|<img src='src/sift.gif' width="300">|<img src='src/surf.gif' width="300">
