@@ -27,7 +27,7 @@ We try three different feature extractors, which are ORB, SIFT, and SURF. In gen
 
 |ORB|SIFT|SURF|
 |---|---|---|
-|<img src='src/hw4-new/orb.gif' width="300">|<img src='src/hw4-new/sift.gif' width="300">|<img src='src/hw4-new/surf.gif' width="300">
+|<img src='src//orb.gif' width="300">|<img src='src/sift.gif' width="300">|<img src='src/surf.gif' width="300">
 
 We add some image processing to enhance effect. For example, horizontal flip, monochrome color, Lomo and Polaroid filters on the results.
 |ORB|SIFT|SURF|
