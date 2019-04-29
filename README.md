@@ -23,9 +23,9 @@ When we have a set of several correspondence. We can find a homography to align 
 Since we usually take h22 as one, we only have eight freedom to solve. As a result, we need at least eight correspondences to solve it.
 
 However, to find a general and robust homography, we need to remove outliers and find the optimal solution. Here, **RANSAC** (RANdom SAmple Consensus) is usually applied.
-<img src='src/RANSAC.png'>
+<img src='src/RANSAC.png' width="400">
 
-Each time we randomly select eight correspondence and caluculate a homography. If the summation of reprojection error of all correspondence if lower than a threshold, we choose it as our final homography.
+Each time we randomly select eight correspondence and caluculate a homography. If the summation of reprojection error of all correspondence is lower than a threshold, we choose it as our final homography.
 
 ## Results of different feature extractors
 We try three different feature extractors, which are ORB, SIFT, and SURF. In general, we found the quality of SURF is the best and robust.
