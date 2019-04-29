@@ -18,7 +18,7 @@ For each correspondence, we plot a line to connect them.
 
 ## Homography
 When we have a set of several correspondence. We can find a homography to align these points.
-<img src='src/homography.png'>
+<img src='src/homography.png' width="400">
 
 Since we usually take h22 as one, we only have eight freedom to solve. As a result, we need at least eight correspondences to solve it.
 
